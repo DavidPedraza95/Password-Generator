@@ -1,19 +1,17 @@
-# Professional-Portfolio
-1. Professional portfolio was created to include:
-Header with name
-Links to a mock about me, work, contact me, and resume
-About me section using Lorem Ipsum
-Work section to Banking Ops, Game development, Horiseon, Finance, and Business Administration.
-Contact Me section providing phone number, email, GitHub, Linkedin, and Facebook.
+# Password-Generator
+Password Generator was created to include the following:
+1. An interactive interface
+2. Generator using between 8 and 128 numerical characters.
+3. Generator using lower case letters.
+4. Generator using upper case letters.
+5. Generator using numbers.
+6. Generator using special characters.
 
-2. HTML created and linked using websites and pdf documents such as resume.
-
-3. CCS created and linked using saved images.
 
 Click on the link below to access the website:
 
-https://davidpedraza95.github.io/Professional-Portfolio/
+https://davidpedraza95.github.io/Password-Generator/
 
 Screenshot of the website shown below:
 
-![Screenshot of the homework is displayed](https://github.com/DavidPedraza95/Professional-Portfolio/blob/main/assets/images/WebsitePP.PNG)
+![Screenshot of the homework is displayed](https://raw.githubusercontent.com/DavidPedraza95/Password-Generator/4c0ad33941be179374ce02c81f55301b1fffb7d9/Assets/Password%20Generator%20screenshot.PNG)
