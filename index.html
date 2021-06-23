@@ -1,34 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Interactive Password Generator</h1>
-      </header>
-      <div class="card">
-        <div class="card-header">
-          <h2>Generate A Secure Password</h2>
-        </div>
-        <div class="card-body">
-          <textarea
-            readonly
-            id="password"
-            placeholder="Your Secure Password"
-            aria-label="Generated Password"
-          ></textarea>
-        </div>
-        <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
-        </div>
-      </div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>David Pedraza Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  
+  <header>
+    <h1>David Pedraza</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
+      <a href="./assets/Resume.pdf">Resume</a>
+    </nav>
+  </header>
+
+  <section class="hero-banner">
+    <div>
+      <h2>Banker / Web Developer</h2>
     </div>
-    <script src="script.js"></script>
-  </body>
+  </section>
+
+  <main class="page-wrapper">
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div>
+        <p>
+          I am a current student in the UNCC Coding Bootcamp, as well as a Wire Transfer Specialist at Wells Fargo Bank.
+          My background includes eight years of Customer Service, four years of Financial Services, and three years of Wire Operations.
+        </p>
+        <p>
+          My educational backround includes a Bachelors Degree in Business Administration with a concentration in Finance, as well as an Associates Degree in Science.
+          As mentioned above, I am currently learning the different technologies and languages required to become a Full Stack Webdeveloper.
+          Please look at the various completed projects below.
+        </p>
+      </div>
+    </section>
+
+    <section class="page-section" id="work">
+      <h2>Work</h2>
+      <div class="flex-container">
+
+        <a href="https://davidpedraza95.github.io/Finance-Project-One/" class="flex-item StockTracker">
+          <div>
+            <h3>Stock Tracker</h3>
+            <span>Investing Data</span>
+          </div>
+        </a>
+        
+        <a href="https://davidpedraza95.github.io/Day-Planner/" class="flex-item DayPlanner">
+          <div>
+            <h3>Day Planner</h3>
+            <span>Schedule Events</span>
+          </div>
+        </a>
+        <a href="https://davidpedraza95.github.io/Code-Quiz/" class="flex-item CodeQuiz">
+          <div>
+            <h3>Code Quiz</h3>
+            <span>Test Your Coding Knowledge</span>
+          </div>
+        </a>
+
+        <a href="https://davidpedraza95.github.io/Password-Generator/" class="flex-item PGenerator">
+          <div>
+            <h3>Password Generator</h3>
+            <span>Generate a Password</span>
+          </div>
+        </a>
+
+    
+        <a href="https://scratch.mit.edu/projects/520492578" class="flex-item Game">
+          <div>
+            <h3>Scratch Game</h3>
+            <span>Play a Game</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <a href="tel:704-674-3359">704-674-3359</a>
+          <a href="mailto:pedrazadavid@hotmail.com">pedrazadavid@hotmail.com</a>
+          <a href="https://github.com/DavidPedraza95">GitHub</a>
+          <a href="https://www.linkedin.com/in/david-p-31114a68/">Linkedin</a>
+          <a href="https://www.facebook.com/117dep">Facebook</a>
+        </address>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
